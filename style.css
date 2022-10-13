@@ -1,0 +1,168 @@
+body{
+    background-color: rgb(238, 235, 235);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    margin-left: 4em;
+    margin-right: 4em;
+} 
+
+h1{
+    font-size: 3em;
+    color:rgb(69, 138, 216);
+    
+}
+
+h2 {
+    font-size: 2em;
+    color:rgb(69, 138, 216);
+} 
+
+header > img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+nav ul {
+    list-style: none; 
+    text-align: center;
+    background-color: black;
+    padding-top: 1em;
+    padding-bottom: 1em;
+} 
+
+nav li {
+    display:inline-block;
+    padding-left: 1em;
+   
+} 
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(69, 138, 216);
+}
+
+nav a:hover {
+text-decoration:underline;
+
+} 
+
+.head-logo {
+    animation: fadein;
+    animation-duration: 3s;
+}
+
+@keyframes fadein { 
+    from {
+        opacity: 0;
+    } 
+    to {
+        opacity: 100;
+    }
+
+}
+
+
+section{
+     display:flex;
+   
+}
+
+article {
+    flex: 1;
+    padding-left: 1em;
+}
+footer {
+    display: flex;
+
+} 
+
+footer div {
+    flex: 1;
+} 
+
+.most-popular-image {
+position: relative;
+left: 5em;
+
+ } 
+
+#popular-heading  {
+    position: relative;
+    bottom: 15em;
+    left: 6em;
+    font-size:xx-large;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#popular-sec-heading {
+    position: relative;
+    bottom: 27em;
+    left: 11em;
+    font-size: large;
+}
+
+#popular-button {
+    position: relative;
+    bottom: 35em;
+    left: 15em;
+    padding: 1em;
+    border-style: none;
+    border-radius: 0.5ex;
+    background-color: rgb(69, 138, 216);
+    font-weight: bold;
+}
+
+#popular-button:hover {
+    box-shadow: 10px 10px 10px -5px rgba(0,0,0,0.29);
+} 
+
+#wedding-button{
+    padding: 1em;
+    border-style: none;
+    border-radius: 0.5ex;
+    background-color: rgb(69, 138, 216);
+    font-weight: bold;
+} 
+
+#wedding-button:hover {
+    box-shadow: 10px 10px 10px -5px rgba(0,0,0,0.29);
+} 
+
+#engagement-button { 
+    padding: 1em;
+    border-style: none;
+    border-radius: 0.5ex;
+    background-color: rgb(69, 138, 216);
+    font-weight: bold;
+
+} 
+
+#engagement-button:hover {
+    box-shadow: 10px 10px 10px -5px rgba(0,0,0,0.29);
+}  
+
+#anniversary-button{
+    padding: 1em;
+    border-style: none;
+    border-radius: 0.5ex;
+    background-color: rgb(69, 138, 216);
+    font-weight: bold;
+} 
+
+#anniversary-button:hover {
+    box-shadow: 10px 10px 10px -5px rgba(0,0,0,0.29);
+}  
+
+.product-selection{
+    padding-bottom: 2em;
+   }
+
+footer {
+    background-color: black;
+    color: rgb(69, 138, 216);
+    padding: 2em;
+}
